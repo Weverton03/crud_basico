@@ -1,0 +1,75 @@
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    header{
+        background-color: green;
+        padding: 10px;
+    }
+
+    header img{
+        position: absolute;
+        top: 2%;
+        left: 38%;
+        transform: translate(-50%, -30%);
+        width: 50px;
+    }
+
+
+    /*header a h4{
+        display: inline;
+        position: absolute;
+        top: -30px;
+        font-size: 30px;
+        right: 580px;
+        color:rgb(165, 98, 98);
+    }*/
+    .beon{
+        position: absolute;
+        top: -3%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        font-size: 30px;
+        color: white;
+    }
+
+    .btn-abrir{
+        color: white;
+        font-size: 25px;
+    }
+
+    nav{
+        height: 100%;
+        width: 0px;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+
+    nav a{
+        color: white;
+        font-size: 20px;
+        display: block;
+        /*padding: 5px 12px;*/
+        padding: 12px 10px 12px 32px;
+    }
+
+    nav a:hover{
+        color: green;
+        background-color: white;
+    }
+
+    nav a i{
+        font-size: 12px;
+    }
+
+    
