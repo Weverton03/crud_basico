@@ -1,0 +1,12 @@
+.dega{
+   background: linear-gradient(to right, rgb(46, 182, 44), rgb(87, 200, 77));
+   /**background-color: green;**/
+}
+
+.usua{
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}

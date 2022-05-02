@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include_once 'conexao.php';
+    include_once 'php/conexao.php';
 
     if(empty($_POST['nome']) || empty($_POST['senha'])) {
         header('location: formulario_login_usuario.php');

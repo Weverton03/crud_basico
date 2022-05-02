@@ -13,20 +13,29 @@
     }
 
     header img{
-       /* position: absolute;
-        top: 5px;
-        right: 760px;
-        height: 60px;
-        width: 60px; */
+        position: absolute;
+        top: 2%;
+        left: 38%;
+        transform: translate(-50%, -30%);
+        width: 50px;
     }
 
-    header h4{
+
+    /*header a h4{
         display: inline;
         position: absolute;
         top: -30px;
         font-size: 30px;
-        right: 575px;
-        color:white;
+        right: 580px;
+        color:rgb(165, 98, 98);
+    }*/
+    .beon{
+        position: absolute;
+        top: -3%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        font-size: 30px;
+        color: white;
     }
 
     .btn-abrir{
@@ -62,3 +71,5 @@
     nav a i{
         font-size: 12px;
     }
+
+    

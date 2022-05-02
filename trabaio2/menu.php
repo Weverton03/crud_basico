@@ -1,3 +1,5 @@
+<?php ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,14 +14,18 @@
 <body>
     <header>
         <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776; Abrir</a>
-        <img src="#" alt=""><h4>BEON-EMPRESAS</h4>
+        <h4 class="beon">BEON-EMPRESAS</h4>
+        <img src="img/logoteste3.png" alt="">
+        
 
     </header>
+    
 
     <nav id="menu">
+        
         <a href="#" onclick="fecharMenu()">&times; Fechar</a>
-        <a href="mostrar.php"> <i class="fa-solid fa-list-check"></i> lista de usuários</a>
-        <a href="mostrar_empresa.php"><i class="fa-solid fa-building"></i> lista de empresas</a>
+        <a href="php/mostrar.php"> <i class="fa-solid fa-list-check"></i> lista de usuários</a>
+        <a href="php/mostrar_empresa.php"><i class="fa-solid fa-building"></i> lista de empresas</a>
         <a href="logout.php"> <i class="fa-solid fa-arrow-right-from-bracket"></i> sair</a>
 
     </nav>
